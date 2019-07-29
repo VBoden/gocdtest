@@ -17,6 +17,11 @@ public class SimpleServiceTest {
 	
 	@InjectMocks
 	private SimpleService service;
+	
+//	@Before
+//	public void setUp() {
+//		service = new SimpleService();
+//	}
 
 	@Test
 	public void test() {
